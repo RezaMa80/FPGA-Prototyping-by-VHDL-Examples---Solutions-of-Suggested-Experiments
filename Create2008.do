@@ -4,7 +4,8 @@
 
 #### Parameters:
 ## fdo file name:
-set filenamenoextension "GreaterThanTestbench"
+puts "Enter file name with no extension:"
+set filenamenoextension [gets stdin]
 
 package require fileutil
 
