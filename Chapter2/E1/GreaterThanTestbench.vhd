@@ -61,11 +61,6 @@ BEGIN
 			B => B,
 			AIsGreaterThanB => AIsGreaterThanB
 		);
-		process
-		begin
-		report "d11";
-		wait;
-		end process;
 	elsif module = TwoBit generate
 		uut: FourBitGreaterThan
 		PORT MAP (
@@ -73,17 +68,6 @@ BEGIN
 			B => B,
 			AIsGreaterThanB => AIsGreaterThanB
 		);
-		process
-		begin
-		report "d12";
-		wait;
-		end process;
-	else generate
-		process
-		begin
-		report "d13";
-		wait;
-		end process;
 	end generate;
 
 	-- Stimulus process
