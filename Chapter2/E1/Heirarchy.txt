@@ -1,0 +1,16 @@
+Implementation:
+  FourBitGreaterThan (FourBitGreaterThan)
+  |__ MSBEquality (TwoBitEquality)
+  |__ MSBGreaterThan (TwoBitGreaterThan)
+  |__ LSBGreaterThan (TwoBitGreaterThan)
+
+Simulation:
+  GreaterThanTestbench
+  |__ TwoBitGreaterThan (TwoBitGreaterThan)
+  |__ FourBitGreaterThan (FourBitGreaterThan)
+      |__ MSBEquality (TwoBitEquality)
+      |__ MSBGreaterThan (TwoBitGreaterThan)
+      |__ LSBGreaterThan (TwoBitGreaterThan)
+
+Libraries:
+  Utilities
