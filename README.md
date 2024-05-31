@@ -4,6 +4,9 @@ Each chapter of the book FPGA Prototyping by VHDL Examples introduces some exerc
 I used ISE Project Navigator version 14.7 to synthesize and implement these codes and ModelSim to simulate testbenches.
 The target device for implemntions is Xilinx Spartan 6 family (xc6slx9-2TQG144).
 
+When using IF-ELSE-GENERATE statements, ISE Project Navigator cannot recognize port mapped components.
+Because of this you should use `vcom -explicit  -2008 [Component].vhd` to compile not compiled components.
+
 ## Provided Files
 * .vhd
 
