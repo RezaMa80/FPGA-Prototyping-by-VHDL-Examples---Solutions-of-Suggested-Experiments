@@ -1,0 +1,23 @@
+Implementation:
+  Decoder2to4
+  Decoder3to8
+  |__ MSBDecoder2to4 (Decoder2to4)
+  |__ LSBDecoder2to4 (Decoder2to4)
+  Decoder4to16
+  |__ Layer1Decoder2to4 (Decoder2to4)
+  |__ Layer0NibbleXDecoder2to4 [X: 0 to 3] (Decoder2to4)
+
+Simulation:
+  GreaterThanTestbench
+  |__ Decoder2to4
+  |
+  |__ Decoder3to8
+  |   |__ MSBDecoder2to4 (Decoder2to4)
+  |   |__ LSBDecoder2to4 (Decoder2to4)
+  |
+  |__ Decoder4to16
+      |__ Layer1Decoder2to4 (Decoder2to4)
+      |__ Layer0NibbleXDecoder2to4 [X: 0 to 3] (Decoder2to4)
+
+Libraries:
+  Utilities
