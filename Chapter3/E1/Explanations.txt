@@ -1,0 +1,13 @@
+8-bit:
+In second method number of occuped slices increased by 20 percent (10 -> 12)
+and delay is increased by 5 percent (14.912 -> 15.668)
+
+16-bit:
+In second method number of slices LUTs decreased by 64 percent (379 -> 136)
+In second method number of occuped slices decreased by 67 percent (132 -> 44)
+and delay is decreased by 10 percent (20.326 -> 18.366)
+
+32-bit:
+In second method number of slices LUTs decreased by 69 percent (1123 -> 345)
+In second method number of occuped slices decreased by 68 percent (392 -> 124)
+and delay is decreased by 1 percent (22.020 -> 21.760)
