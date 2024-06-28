@@ -1,0 +1,11 @@
+Implementation:
+  LeftRightCombBarrelShifterMethod1
+  LeftRightCombBarrelShifterMethod2
+
+Simulation:
+  LeftRightCombBarrelShifter_TB
+  |__ LeftRightCombBarrelShifterMethod1
+  |__ LeftRightCombBarrelShifterMethod2
+
+Libraries:
+  Utilities
