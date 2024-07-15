@@ -19,3 +19,6 @@ Because of this you should use `vcom -explicit  -2008 [Component].vhd` to compil
   For simulation, ModelSim uses a .fdo file that is automaticly created by ISE Project Navigator.
   ISE Project Navigator creates .fdo file by assuming that the VHDL codes are 93 version and this will cause problems when using VHDL 2008.
   Using `do Create2008.do` in ModelSim will create a .fdo for 2008 versions.  `do [Testbench].2008.fdo` runs the new created file.
+* GeneratorRandom01.do
+
+  Some testbenches read the file "random01.txt" to use randomly generated zeros and ones. To create "random01.txt" use `do GeneratorRandom01.do` then enter the number of bits to generate.
