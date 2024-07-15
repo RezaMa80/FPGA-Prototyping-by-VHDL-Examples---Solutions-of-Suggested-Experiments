@@ -1,4 +1,5 @@
 Implementation:
+  DualPriorityComb
   DualPriorityCombWith7Segment
   |__ DualPriorityComb_L (DualPriorityComb)
   |__ first7Segment_L (Segment7)
