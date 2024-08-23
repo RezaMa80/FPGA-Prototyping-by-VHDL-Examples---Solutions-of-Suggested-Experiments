@@ -1,0 +1,14 @@
+Implementation:
+  FloatingPointGreaterThanComb
+  FloatingPointGreaterThanCombTestingCircuit
+  |__ FloatingPointGreaterThanComb
+  |__ UART_Transmit
+  |__ UART_Receive
+
+Simulation:
+  TB_FloatingPointGreaterThanComb
+  |__ FloatingPointGreaterThanComb
+
+Libraries:
+  Utilities
+  UART_Utilities
