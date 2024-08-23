@@ -6,7 +6,7 @@ Implementation:
 
 Simulation:
   TB_BCDIncrementor
-  |__ TB_BCDIncrementor
+  |__ BCDIncrementor
 
 Libraries:
   Utilities
