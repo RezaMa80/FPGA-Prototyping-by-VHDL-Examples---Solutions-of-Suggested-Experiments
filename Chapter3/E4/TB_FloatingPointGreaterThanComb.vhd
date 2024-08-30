@@ -63,12 +63,14 @@ BEGIN
 			
 			if temp1 = "0000000" then
 				frac1 <= (others => '0');
+				exp1 <= (others => '0'); 
 			else
 				frac1 <= '1' & temp1;
 			end if;
 			
 			if temp2 = "0000000" then
 				frac2 <= (others => '0');
+				exp2 <= (others => '0'); 
 			else
 				frac2 <= '1' & temp2;
 			end if;
