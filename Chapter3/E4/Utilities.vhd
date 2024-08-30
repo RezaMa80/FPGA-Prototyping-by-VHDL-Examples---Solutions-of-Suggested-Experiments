@@ -26,6 +26,8 @@ package Utilities is
 	-- To String
 	function tostr (int	: integer) 		return string;
 	
+	function tostr (float	: real) 	return string;
+	
 	function tostr (sl 	: std_logic) 	return string;
 	
 	function tostr (
@@ -101,6 +103,11 @@ package body Utilities is
 	function tostr (int : integer) return string is
 	begin
 		return integer'image(int);
+	end tostr;
+	
+	function tostr (float : real) return string is
+	begin
+		return real'image(float);
 	end tostr;
 	
 	function tostr (
