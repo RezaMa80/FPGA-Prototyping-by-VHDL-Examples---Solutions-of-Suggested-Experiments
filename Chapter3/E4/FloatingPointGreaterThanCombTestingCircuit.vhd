@@ -101,7 +101,7 @@ begin
 	);
 	
 	-- Setting a number:
-	---- First byte: 	00 | Number Select (1) | Exponential Part (4)
+	---- First byte: 	00 | Number Select (1) | Sign (1) | Exponential Part (4)
 	---- Second byte: 	Fractional Part (8)
 	process (i_clk)
 		variable numberSelectVar : natural range 0 to 1;
