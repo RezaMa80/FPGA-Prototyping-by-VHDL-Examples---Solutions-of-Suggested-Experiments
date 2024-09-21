@@ -1,0 +1,23 @@
+Implementation:
+  IntegerToFloatingPointComb
+  IntegerToFloatingPointCombTestingCircuit
+  |__ IntegerToFloatingPointComb
+  |__ UART_Transmit
+  |__ UART_Receive
+  
+  FloatingPointToIntegerComb
+  FloatingPointToIntegerCombTestingCircuit
+  |__ FloatingPointToIntegerComb
+  |__ UART_Transmit
+  |__ UART_Receive
+
+Simulation:
+  TB_IntegerToFloatingPointComb
+  |__ IntegerToFloatingPointComb
+
+  TB_FloatingPointToIntegerComb
+  |__ FloatingPointToIntegerComb
+
+Libraries:
+  Utilities
+  UART_Utilities
