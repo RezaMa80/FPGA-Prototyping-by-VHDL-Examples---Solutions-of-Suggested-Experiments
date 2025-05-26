@@ -1,0 +1,11 @@
+Implementation:
+  debounce_with_dual_edge_test
+  |__ db_fsm
+  |__ disp_hex_mux
+  |__ DualEdge_Detector_Mealy
+  |__ DualEdge_Detector_Moor
+
+Simulation:
+  TB_DualEdge_Detector
+  |__ DualEdge_Detector_Mealy
+  |__ DualEdge_Detector_Moor
