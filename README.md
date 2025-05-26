@@ -22,3 +22,10 @@ Because of this you should use `vcom -explicit  -2008 [Component].vhd` to compil
 * GeneratorRandom01.do
 
   Some testbenches read the file "random01.txt" to use randomly generated zeros and ones. To create "random01.txt" use `do GeneratorRandom01.do` then enter the number of bits to generate.
+
+## Useful Results
+Durring the completion this repository, I wrote some usefull general compenets or code templets which can be reused in other projects, I list them below (Started from chapter 5). I link them later:
+* Combinational testbench templet
+* Sequential testbench templet
+* UART component
+* Utilities library
