@@ -24,7 +24,8 @@ Because of this you should use `vcom -explicit  -2008 [Component].vhd` to compil
   Some testbenches read the file "random01.txt" to use randomly generated zeros and ones. To create "random01.txt" use `do GeneratorRandom01.do` then enter the number of bits to generate.
 
 ## Useful Results
-Durring the completion this repository, I wrote some usefull general compenets or code templets which can be reused in other projects, I list them below (Started from chapter 5). I link them later:
+Durring the completion this repository, I wrote some usefull general compenets or code templats which can be reused in other projects, I list them below (Started from chapter 5). I link them later:
+* [Simple estbench Template](https://github.com/RezaMa80/FPGA-Prototyping-by-VHDL-Examples---Solutions-of-Suggested-Experiments/blob/main/Chapter5/E1/TB_DualEdge_Detector.vhd)
 * Combinational testbench templet
 * Sequential testbench templet
 * UART component
