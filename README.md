@@ -25,7 +25,7 @@ Because of this you should use `vcom -explicit  -2008 [Component].vhd` to compil
 
 ## Useful Results
 Durring the completion this repository, I wrote some usefull general compenets or code templats which can be reused in other projects, I list them below (Started from chapter 5). I link them later:
-* [Simple estbench Template](https://github.com/RezaMa80/FPGA-Prototyping-by-VHDL-Examples---Solutions-of-Suggested-Experiments/blob/main/Chapter5/E1/TB_DualEdge_Detector.vhd)
+* [Simple Testbench Template](https://github.com/RezaMa80/FPGA-Prototyping-by-VHDL-Examples---Solutions-of-Suggested-Experiments/blob/main/Chapter5/E1/TB_DualEdge_Detector.vhd)
 * Combinational testbench templet
 * Sequential testbench templet
 * UART component
