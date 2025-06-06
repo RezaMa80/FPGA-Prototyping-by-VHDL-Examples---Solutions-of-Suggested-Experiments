@@ -1,0 +1,8 @@
+Implementation:
+  Debounce_With_Alrenative_Debouncing_Circuit_Test
+  |__ debouncer
+  |__ disp_hex_mux
+
+Simulation:
+  TB_debouncer
+  |__ debouncer
