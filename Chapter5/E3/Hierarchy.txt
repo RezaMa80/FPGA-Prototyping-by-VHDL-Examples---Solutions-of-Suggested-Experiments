@@ -1,0 +1,6 @@
+Parking_Lot_Occupancy_Counter
+|__ Disp_Unit: disp_hex_mux
+|__ Counter_Unit: Counter16
+|__ Traffic_Cheker_Unit: Traffic_Cheker
+|__ Button0_Debouncer: db_fsm
+|__ Button1_Debouncer: db_fsm
